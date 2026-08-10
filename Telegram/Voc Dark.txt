@@ -1,0 +1,1418 @@
+# ---------------------------------------------------------------------------- #
+#                                      IOS                                     #
+# ---------------------------------------------------------------------------- #
+
+name: Voc Dark
+shortname: vocdarktheme
+basedOn: night
+dark: true
+intro_statusBar: white
+intro_primaryText: #EEEAE4
+intro_accentText: #E0CAAC
+intro_disabledText: #6B5A5E
+intro_startButton: #E0CAAC
+intro_dot: #3A1838
+passcode_bg_top: #4C1E48
+passcode_bg_bottom: #190618
+passcode_button: clear
+root_statusBar: white
+root_tabBar_background: #22091F
+root_tabBar_separator: #3A1838
+root_tabBar_icon: #6B5A5E
+root_tabBar_selectedIcon: #E0CAAC
+root_tabBar_text: #6B5A5E
+root_tabBar_selectedText: #E0CAAC
+root_tabBar_badgeBackground: #C76B6B
+root_tabBar_badgeStroke: #C76B6B
+root_tabBar_badgeText: #EEEAE4
+root_navBar_button: #E0CAAC
+root_navBar_disabledButton: #4A3D42
+root_navBar_primaryText: #EEEAE4
+root_navBar_secondaryText: #A89C8E
+root_navBar_control: #A89C8E
+root_navBar_accentText: #E0CAAC
+root_navBar_background: #22091F
+root_navBar_separator: #3A1838
+root_navBar_badgeFill: #C76B6B
+root_navBar_badgeStroke: #C76B6B
+root_navBar_badgeText: #EEEAE4
+root_searchBar_background: #22091F
+root_searchBar_accent: #E0CAAC
+root_searchBar_inputFill: #2A1028
+root_searchBar_inputText: #EEEAE4
+root_searchBar_inputPlaceholderText: #6B5A5E
+root_searchBar_inputIcon: #6B5A5E
+root_searchBar_inputClearButton: #6B5A5E
+root_searchBar_separator: #3A1838
+root_keyboard: dark
+list_blocksBg: #0F0310
+list_plainBg: #190618
+list_primaryText: #EEEAE4
+list_secondaryText: #A89C8E
+list_disabledText: #4A3D42
+list_accent: #E0CAAC
+list_highlighted: #A5AB6D
+list_destructive: #C76B6B
+list_placeholderText: #6B5A5E
+list_itemBlocksBg: #22091F
+list_itemHighlightedBg: #2A1028
+list_blocksSeparator: #3A1838
+list_plainSeparator: #2D1329
+list_disclosureArrow: #4A3D42
+list_sectionHeaderText: #A89C8E
+list_freeText: #A89C8E
+list_freeTextError: #C76B6B
+list_freeTextSuccess: #A5AB6D
+list_freeMonoIcon: #6B5A5E
+list_switch_frame: #3A1838
+list_switch_handle: #EEEAE4
+list_switch_content: #A5AB6D
+list_switch_positive: #A5AB6D
+list_switch_negative: #C76B6B
+list_disclosureActions_neutral1_bg: #4C1E48
+list_disclosureActions_neutral1_fg: #EEEAE4
+list_disclosureActions_neutral2_bg: #D4A86A
+list_disclosureActions_neutral2_fg: #190618
+list_disclosureActions_destructive_bg: #C76B6B
+list_disclosureActions_destructive_fg: #EEEAE4
+list_disclosureActions_constructive_bg: #A5AB6D
+list_disclosureActions_constructive_fg: #190618
+list_disclosureActions_accent_bg: #E0CAAC
+list_disclosureActions_accent_fg: #190618
+list_disclosureActions_warning_bg: #D4A86A
+list_disclosureActions_warning_fg: #190618
+list_disclosureActions_inactive_bg: #4A3D42
+list_disclosureActions_inactive_fg: #EEEAE4
+list_check_bg: #E0CAAC
+list_check_stroke: #3A1838
+list_check_fg: #190618
+list_controlSecondary: #3A1838
+list_freeInputField_bg: #2A1028
+list_freeInputField_stroke: #3A1838
+list_freeInputField_placeholder: #6B5A5E
+list_freeInputField_primary: #EEEAE4
+list_freeInputField_control: #6B5A5E
+list_mediaPlaceholder: #2A1028
+list_scrollIndicator: #EEEAE44C
+list_pageIndicatorInactive: #3A1838
+list_inputClearButton: #6B5A5E
+chatList_bg: #190618
+chatList_itemSeparator: #2D1329
+chatList_itemBg: #190618
+chatList_pinnedItemBg: #22091F
+chatList_itemHighlightedBg: #2A1028
+chatList_itemSelectedBg: #2A1028
+chatList_title: #EEEAE4
+chatList_secretTitle: #A5AB6D
+chatList_dateText: #A89C8E
+chatList_authorName: #EEEAE4
+chatList_messageText: #A89C8E
+chatList_messageHighlightedText: #EEEAE4
+chatList_messageDraftText: #C76B6B
+chatList_checkmark: #A5AB6D
+chatList_pendingIndicator: #A89C8E
+chatList_failedFill: #C76B6B
+chatList_failedFg: #EEEAE4
+chatList_muteIcon: #6B5A5E
+chatList_unreadBadgeActiveBg: #E0CAAC
+chatList_unreadBadgeActiveText: #190618
+chatList_unreadBadgeInactiveBg: #4A3D42
+chatList_unreadBadgeInactiveText: #EEEAE4
+chatList_pinnedBadge: #6B5A5E
+chatList_pinnedSearchBar: #2A1028
+chatList_regularSearchBar: #2A1028
+chatList_sectionHeaderBg: #22091F
+chatList_sectionHeaderText: #A89C8E
+chatList_verifiedIconBg: #E0CAAC
+chatList_verifiedIconFg: #190618
+chatList_secretIcon: #A5AB6D
+chatList_pinnedArchiveAvatar_background_top: #5E2459
+chatList_pinnedArchiveAvatar_background_bottom: #4C1E48
+chatList_pinnedArchiveAvatar_foreground: #EEEAE4
+chatList_unpinnedArchiveAvatar_background_top: #3A1838
+chatList_unpinnedArchiveAvatar_background_bottom: #2D1329
+chatList_unpinnedArchiveAvatar_foreground: #A89C8E
+chatList_onlineDot: #A5AB6D
+chat_message_incoming_bubble_withWp_bg: #2A1028
+chat_message_incoming_bubble_withWp_highlightedBg: #3A1838
+chat_message_incoming_bubble_withWp_stroke: #3A183800
+chat_message_incoming_bubble_withoutWp_bg: #2A1028
+chat_message_incoming_bubble_withoutWp_highlightedBg: #3A1838
+chat_message_incoming_bubble_withoutWp_stroke: #3A183800
+chat_message_incoming_primaryText: #EEEAE4
+chat_message_incoming_secondaryText: #A89C8E99
+chat_message_incoming_linkText: #E0CAAC
+chat_message_incoming_linkHighlight: #E0CAAC4C
+chat_message_incoming_scam: #C76B6B
+chat_message_incoming_textHighlight: #E0CAAC33
+chat_message_incoming_accentText: #E0CAAC
+chat_message_incoming_accentControl: #E0CAAC
+chat_message_incoming_mediaActiveControl: #E0CAAC
+chat_message_incoming_mediaInactiveControl: #4A3D42
+chat_message_incoming_pendingActivity: #A89C8E99
+chat_message_incoming_fileTitle: #E0CAAC
+chat_message_incoming_fileDescription: #A89C8E
+chat_message_incoming_fileDuration: #A89C8E99
+chat_message_incoming_mediaPlaceholder: #22091F
+chat_message_incoming_polls_radioButton: #6B5A5E
+chat_message_incoming_polls_radioProgress: #E0CAAC
+chat_message_incoming_polls_highlight: #E0CAAC14
+chat_message_incoming_polls_separator: #3A1838
+chat_message_incoming_polls_bar: #E0CAAC
+chat_message_incoming_actionButtonsBg_withWp: #4C1E4899
+chat_message_incoming_actionButtonsBg_withoutWp: #4C1E4899
+chat_message_incoming_actionButtonsStroke_withWp: clear
+chat_message_incoming_actionButtonsStroke_withoutWp: clear
+chat_message_incoming_actionButtonsText_withWp: #EEEAE4
+chat_message_incoming_actionButtonsText_withoutWp: #EEEAE4
+chat_message_incoming_textSelection: #E0CAAC33
+chat_message_incoming_textSelectionKnob: #E0CAAC
+chat_message_outgoing_bubble_withWp_bg: #4C1E48
+chat_message_outgoing_bubble_withWp_highlightedBg: #5E2459
+chat_message_outgoing_bubble_withWp_stroke: #5E245900
+chat_message_outgoing_bubble_withoutWp_bg: #4C1E48
+chat_message_outgoing_bubble_withoutWp_highlightedBg: #5E2459
+chat_message_outgoing_bubble_withoutWp_stroke: #5E245900
+chat_message_outgoing_primaryText: #EEEAE4
+chat_message_outgoing_secondaryText: #A89C8ECC
+chat_message_outgoing_linkText: #E0CAAC
+chat_message_outgoing_linkHighlight: #E0CAAC4C
+chat_message_outgoing_scam: #C76B6B
+chat_message_outgoing_textHighlight: #A5AB6D33
+chat_message_outgoing_accentText: #A5AB6D
+chat_message_outgoing_accentControl: #A5AB6D
+chat_message_outgoing_mediaActiveControl: #A5AB6D
+chat_message_outgoing_mediaInactiveControl: #6B5A5E
+chat_message_outgoing_pendingActivity: #A89C8E
+chat_message_outgoing_fileTitle: #A5AB6D
+chat_message_outgoing_fileDescription: #A89C8E
+chat_message_outgoing_fileDuration: #A89C8ECC
+chat_message_outgoing_mediaPlaceholder: #3A1838
+chat_message_outgoing_polls_radioButton: #6B5A5E
+chat_message_outgoing_polls_radioProgress: #A5AB6D
+chat_message_outgoing_polls_highlight: #A5AB6D14
+chat_message_outgoing_polls_separator: #6B5A5E
+chat_message_outgoing_polls_bar: #A5AB6D
+chat_message_outgoing_actionButtonsBg_withWp: #3A183899
+chat_message_outgoing_actionButtonsBg_withoutWp: #3A183899
+chat_message_outgoing_actionButtonsStroke_withWp: clear
+chat_message_outgoing_actionButtonsStroke_withoutWp: clear
+chat_message_outgoing_actionButtonsText_withWp: #EEEAE4
+chat_message_outgoing_actionButtonsText_withoutWp: #EEEAE4
+chat_message_outgoing_textSelection: #A5AB6D33
+chat_message_outgoing_textSelectionKnob: #A5AB6D
+chat_message_freeform_withWp_bg: #2A1028
+chat_message_freeform_withWp_highlightedBg: #3A1838
+chat_message_freeform_withWp_stroke: #3A183800
+chat_message_freeform_withoutWp_bg: #2A1028
+chat_message_freeform_withoutWp_highlightedBg: #3A1838
+chat_message_freeform_withoutWp_stroke: #3A183800
+chat_message_infoPrimaryText: #EEEAE4
+chat_message_infoLinkText: #E0CAAC
+chat_message_outgoingCheck: #A5AB6D
+chat_message_mediaDateAndStatusBg: #00000099
+chat_message_mediaDateAndStatusText: #EEEAE4
+chat_message_shareButtonBg_withWp: #4C1E4899
+chat_message_shareButtonBg_withoutWp: #4C1E4899
+chat_message_shareButtonStroke_withWp: clear
+chat_message_shareButtonStroke_withoutWp: clear
+chat_message_shareButtonFg_withWp: #EEEAE4
+chat_message_shareButtonFg_withoutWp: #EEEAE4
+chat_message_mediaOverlayControl_bg: #00000099
+chat_message_mediaOverlayControl_fg: #EEEAE4
+chat_message_selectionControl_bg: #E0CAAC
+chat_message_selectionControl_stroke: #3A1838
+chat_message_selectionControl_fg: #190618
+chat_message_deliveryFailed_bg: #C76B6B
+chat_message_deliveryFailed_fg: #EEEAE4
+chat_message_mediaHighlightOverlay: #E0CAAC33
+chat_serviceMessage_components_withDefaultWp_bg: #22091FCC
+chat_serviceMessage_components_withDefaultWp_primaryText: #EEEAE4
+chat_serviceMessage_components_withDefaultWp_linkHighlight: #E0CAAC3F
+chat_serviceMessage_components_withDefaultWp_scam: #C76B6B
+chat_serviceMessage_components_withDefaultWp_dateFillStatic: #22091FCC
+chat_serviceMessage_components_withDefaultWp_dateFillFloat: #22091FAA
+chat_serviceMessage_components_withCustomWp_bg: #22091FCC
+chat_serviceMessage_components_withCustomWp_primaryText: #EEEAE4
+chat_serviceMessage_components_withCustomWp_linkHighlight: #E0CAAC3F
+chat_serviceMessage_components_withCustomWp_scam: #C76B6B
+chat_serviceMessage_components_withCustomWp_dateFillStatic: #22091FCC
+chat_serviceMessage_components_withCustomWp_dateFillFloat: #22091F99
+chat_serviceMessage_unreadBarBg: #2A1028
+chat_serviceMessage_unreadBarStroke: #3A183866
+chat_serviceMessage_unreadBarText: #A89C8E
+chat_serviceMessage_dateText_withWp: #EEEAE4
+chat_serviceMessage_dateText_withoutWp: #EEEAE4
+chat_inputPanel_panelBg: #22091F
+chat_inputPanel_panelSeparator: #3A1838
+chat_inputPanel_panelControlAccent: #E0CAAC
+chat_inputPanel_panelControl: #A89C8E
+chat_inputPanel_panelControlDisabled: #4A3D427F
+chat_inputPanel_panelControlDestructive: #C76B6B
+chat_inputPanel_inputBg: #190618
+chat_inputPanel_inputStroke: #3A1838
+chat_inputPanel_inputPlaceholder: #6B5A5E
+chat_inputPanel_inputText: #EEEAE4
+chat_inputPanel_inputControl: #6B5A5E
+chat_inputPanel_actionControlBg: #E0CAAC
+chat_inputPanel_actionControlFg: #190618
+chat_inputPanel_primaryText: #EEEAE4
+chat_inputPanel_secondaryText: #A89C8E
+chat_inputPanel_mediaRecordDot: #C76B6B
+chat_inputPanel_mediaRecordControl_button: #E0CAAC
+chat_inputPanel_mediaRecordControl_micLevel: #E0CAAC33
+chat_inputPanel_mediaRecordControl_activeIcon: #190618
+chat_inputMediaPanel_panelSeparator: #3A1838
+chat_inputMediaPanel_panelIcon: #6B5A5E
+chat_inputMediaPanel_panelHighlightedIconBg: #6B5A5E33
+chat_inputMediaPanel_stickersBg: #190618
+chat_inputMediaPanel_stickersSectionText: #6B5A5E
+chat_inputMediaPanel_stickersSearchBg: #2A1028
+chat_inputMediaPanel_stickersSearchPlaceholder: #6B5A5E
+chat_inputMediaPanel_stickersSearchPrimary: #EEEAE4
+chat_inputMediaPanel_stickersSearchControl: #6B5A5E
+chat_inputMediaPanel_gifsBg: #190618
+chat_inputButtonPanel_panelBg: #22091F
+chat_inputButtonPanel_panelSeparator: #3A1838
+chat_inputButtonPanel_buttonBg: #2A1028
+chat_inputButtonPanel_buttonStroke: #3A1838
+chat_inputButtonPanel_buttonHighlightedBg: #4C1E48
+chat_inputButtonPanel_buttonHighlightedStroke: #5E2459
+chat_inputButtonPanel_buttonText: #EEEAE4
+chat_historyNav_bg: #22091F
+chat_historyNav_stroke: #3A1838
+chat_historyNav_fg: #A89C8E
+chat_historyNav_badgeBg: #E0CAAC
+chat_historyNav_badgeStroke: #E0CAAC
+chat_historyNav_badgeText: #190618
+chat_statusBar: white
+chat_navBar_background: #22091F
+chat_navBar_button: #E0CAAC
+chat_navBar_disabledButton: #4A3D42
+chat_navBar_primaryText: #EEEAE4
+chat_navBar_secondaryText: #A89C8E
+chat_navBar_control: #A89C8E
+chat_navBar_accentText: #E0CAAC
+chat_navBar_separator: #3A1838
+chat_navBar_badgeFill: #C76B6B
+chat_navBar_badgeStroke: #C76B6B
+chat_navBar_badgeText: #EEEAE4
+wallpaper: t.me/bg/tI3XHR24TFMCAAAAT7lmkIFYT5M
+actionSheet_dim: #00000099
+actionSheet_bgType: dark
+actionSheet_opaqueItemBg: #22091F
+actionSheet_itemBg: #22091FDD
+actionSheet_opaqueItemHighlightedBg: #2A1028
+actionSheet_itemHighlightedBg: #2A1028B2
+actionSheet_opaqueItemSeparator: #3A1838
+actionSheet_standardActionText: #E0CAAC
+actionSheet_destructiveActionText: #C76B6B
+actionSheet_disabledActionText: #4A3D42
+actionSheet_primaryText: #EEEAE4
+actionSheet_secondaryText: #A89C8E
+actionSheet_controlAccent: #E0CAAC
+actionSheet_inputBg: #2A1028
+actionSheet_inputHollowBg: #190618
+actionSheet_inputBorder: #3A1838
+actionSheet_inputPlaceholder: #6B5A5E
+actionSheet_inputText: #EEEAE4
+actionSheet_inputClearButton: #6B5A5E
+actionSheet_checkContent: #190618
+contextMenu_dim: #000000AA
+contextMenu_background: #22091FE6
+contextMenu_itemSeparator: #3A183866
+contextMenu_sectionSeparator: #3A183866
+contextMenu_itemBg: #00000000
+contextMenu_itemHighlightedBg: #2A1028AA
+contextMenu_primary: #EEEAE4
+contextMenu_secondary: #A89C8ECC
+contextMenu_destructive: #C76B6B
+notification_bg: #22091F
+notification_primaryText: #EEEAE4
+notification_expanded_bgType: dark
+notification_expanded_navBar_background: #22091F
+notification_expanded_navBar_primaryText: #EEEAE4
+notification_expanded_navBar_control: #A89C8E
+notification_expanded_navBar_separator: #3A1838
+
+# ---------------------------------------------------------------------------- #
+#                                    Android                                   #
+# ---------------------------------------------------------------------------- #
+
+name: Voc Dark
+shortname: vocdarktheme
+windowBackgroundChecked: #E0CAAC
+chat_inFileBackgroundSelected: #4C1E48
+chat_unreadMessagesStartText: #E0CAAC
+radioBackgroundChecked: #E0CAAC
+dialogTextBlue: #E0CAAC
+dialog_inlineProgressBackground: #22091FF6
+windowBackgroundGrayShadow: #0F0310
+windowBackgroundWhiteBlueIcon: #E0CAAC
+chat_inSentClockSelected: #A89C8E
+chat_goDownButtonCounterBackground: #E0CAAC
+chat_mediaLoaderPhotoSelected: #0000007F
+dialogCheckboxSquareBackground: #E0CAAC
+actionBarActionModeDefault: #22091F
+actionBarActionModeDefaultTop: #00000040
+chats_menuPhone: #A89C8E
+sharedMedia_actionMode: #22091F
+sessions_devicesImage: #6B5A5E
+chat_outViews: #A89C8E
+chat_secretTimerBackground: #4C1E48CC
+chat_outViaBotNameText: #A5AB6D
+chat_botKeyboardButtonText: #EEEAE4
+profile_actionPressedBackground: #2A1028
+key_chat_messagePanelVoiceLock: #6B5A5E
+chat_secretChatStatusText: #6B5A5E
+chats_actionUnreadPressedBackground: #2A1028
+switchTrack: #6B5A5E
+chat_messagePanelVoicePressed: #190618
+chat_inPreviewInstantSelectedText: #B8A088
+chat_attachAudioBackground: #C76B6B
+location_sendLocationBackground: #E0CAAC
+actionBarDefaultSubmenuBackground: #22091F
+switchTrackBlueThumb: #EEEAE4
+avatar_nameInMessageViolet: #B49BD0
+emptyListPlaceholder: #6B5A5E
+chat_inAudioSelectedProgress: #3A1838
+chats_nameMessage: #E0CAAC
+groupcreate_spanDelete: #EEEAE4
+chat_attachMediaBanBackground: #2D1329
+actionBarDefaultArchived: #0F0310
+chat_inMediaIcon: #EEEAE4
+chat_messagePanelShadow: #00000066
+contacts_inviteBackground: #A5AB6D
+chat_gifSaveHintText: #EEEAE4
+chat_messagePanelCancelInlineBot: #6B5A5E
+dialogSearchBackground: #2A1028
+checkbox: #E0CAAC
+actionBarWhiteSelector: #FFFFFF1F
+chat_outAudioSeekbarFill: #A5AB6D
+chat_botKeyboardButtonBackgroundPressed: #5E2459
+player_time: #A89C8E
+chat_outTimeSelectedText: #A89C8E
+chat_outFileProgressSelected: #6E3066
+chat_goDownButtonShadow: #00000066
+chat_inFileProgressSelected: #4C1E48
+chat_emojiSearchBackground: #2A1028
+changephoneinfo_image: #6B5A5E
+avatar_backgroundPink: #C49BAA
+chat_outBroadcast: #A5AB6D
+chat_inAudioPerfomerText: #A89C8E
+musicPicker_checkboxCheck: #190618
+player_button: #EEEAE4
+key_sheet_other: #6B5A5E
+login_progressOuter: #E0CAAC
+switch2Track: #8E4A4A
+chat_inContactNameText: #E0CAAC
+chats_menuPhoneCats: #E0CAAC
+dialogScrollGlow: #22091F
+chat_outPreviewLine: #A5AB6D
+chat_messagePanelHint: #6B5A5E
+location_sendLiveLocationBackground: #C76B6B
+windowBackgroundGray: #0F0310
+dialog_inlineProgress: #A89C8E
+chat_inViaBotNameText: #E0CAAC
+chat_outVoiceSeekbar: #4A3D42
+dialogGrayLine: #2D1329
+player_actionBarTitle: #EEEAE4
+chat_outFileIcon: #A5AB6D
+chats_nameMessage_threeLines: #EEEAE4
+chat_adminText: #A89C8E
+picker_badgeText: #190618
+chat_inFileProgress: #22091F
+dialogIcon: #A89C8E
+chat_emojiPanelEmptyText: #6B5A5E
+chat_inContactPhoneSelectedText: #EEEAE4
+chat_emojiPanelBackspace: #A89C8E
+chat_replyPanelClose: #A89C8E
+featuredStickers_addButtonPressed: #B8A088
+dialogSearchText: #EEEAE4
+chat_shareBackgroundSelected: #4C1E4899
+actionBarTabUnactiveText: #A89C8E
+chat_outAudioTitleText: #A5AB6D
+chat_emojiPanelStickerSetNameIcon: #A89C8E
+chat_emojiPanelBackground: #22091F
+chats_unreadCounter: #E0CAAC
+chat_recordedVoiceProgressInner: #EEEAE4
+groupcreate_hintText: #6B5A5E
+featuredStickers_buttonText: #190618
+chat_inReplyMediaMessageSelectedText: #A89C8E
+chat_stickerViaBotNameText: #EEEAE4
+dialogCheckboxSquareUnchecked: #6B5A5E
+chat_inMediaIconSelected: #EEEAE4
+chat_attachAudioIcon: #EEEAE4
+chat_inBubble: #2A1028
+chat_attachGalleryIcon: #190618
+chat_outSentCheckRead: #A5AB6D
+chat_emojiPanelNewTrending: #E0CAAC
+chat_emojiPanelStickerPackSelector: #2A1028
+chat_unreadMessagesStartArrowIcon: #A89C8E
+chat_stickerReplyLine: #EEEAE4
+windowBackgroundWhiteBlackText: #EEEAE4
+avatar_backgroundActionBarBlue: #22091F
+dialogTextLink: #E0CAAC
+chat_previewGameText: #EEEAE4
+chat_recordTime: #EEEAE4
+chat_status: #A89C8E
+changephoneinfo_image2: #E0CAAC
+windowBackgroundWhiteBlueHeader: #E0CAAC
+files_folderIconBackground: #22091F
+chat_messagePanelVoiceBackground: #E0CAAC
+passport_authorizeBackgroundSelected: #B8A088
+switchTrackBlueChecked: #E0CAAC
+sharedMedia_linkPlaceholderText: #6B5A5E
+dialogCheckboxSquareCheck: #190618
+dialogShadowLine: #00000033
+chat_attachMediaBanText: #EEEAE4
+profile_status: #A89C8E
+divider: #2D1329
+actionBarDefaultIcon: #EEEAE4
+chat_topPanelLine: #E0CAAC
+avatar_backgroundViolet: #8B6FA8
+chat_botProgress: #EEEAE4
+dialogTopBackground: #4C1E48
+chat_inReplyMessageText: #EEEAE4
+dialogInputField: #3A1838
+windowBackgroundWhiteInputFieldActivated: #E0CAAC
+chat_attachGalleryBackground: #E0CAAC
+chat_outInstantSelected: #8A9058
+chat_outSentCheck: #A5AB6D
+key_graySectionText: #A89C8E
+player_placeholder: #6B5A5E
+chat_outFileSelectedIcon: #A5AB6D
+picker_disabledButton: #6B5A5E
+chat_attachPhotoBackground: #FFFFFF08
+groupcreate_spanBackground: #2A1028
+dialogButton: #E0CAAC
+featuredStickers_buttonProgress: #190618
+contextProgressInner1: #B8A088
+contextProgressInner3: #6B5A5E
+chat_inLoaderPhotoIconSelected: #EEEAE4
+contextProgressInner2: #B8A088
+actionBarDefaultSubtitle: #A89C8E
+contextProgressInner4: #6B5A5E
+chat_inContactPhoneText: #EEEAE4
+chat_inlineResultIcon: #E0CAAC
+dialogLineProgress: #E0CAAC
+chats_draft: #C76B6B
+chat_previewDurationText: #EEEAE4
+chat_serviceLink: #E0CAAC
+chat_outPreviewInstantText: #A5AB6D
+location_sendLiveLocationIcon: #EEEAE4
+chat_inMenuSelected: #EEEAE4
+avatar_backgroundOrange: #D4A86A
+chat_outLocationIcon: #A5AB6D
+chat_inLoaderSelected: #B8A088
+location_liveLocationProgress: #E0CAAC
+dialogTextRed: #C76B6B
+chat_inBubbleShadow: #00000033
+chat_attachContactIcon: #190618
+dialogProgressCircle: #E0CAAC
+chat_outSentCheckReadSelected: #A5AB6D
+chat_outAudioProgress: #4C1E48
+checkboxSquareCheck: #190618
+stickers_menu: #A89C8E
+player_progress: #E0CAAC
+chat_stickerReplyMessageText: #EEEAE4
+chat_attachLocationBackground: #A5AB6D
+chat_inReplyLine: #E0CAAC
+chat_inAudioPerfomerSelectedText: #A89C8E
+dialogBackground: #22091F
+dialogLineProgressBackground: #3A1838
+chat_inReplyNameText: #E0CAAC
+chat_outAudioPerfomerSelectedText: #A89C8E
+chat_gifSaveHintBackground: #000000CC
+actionBarActionModeDefaultIcon: #EEEAE4
+profile_title: #EEEAE4
+windowBackgroundWhiteRedText4: #C76B6B
+windowBackgroundWhiteRedText3: #C76B6B
+windowBackgroundWhiteRedText6: #C76B6B
+chat_goDownButtonIcon: #EEEAE4
+windowBackgroundWhiteRedText5: #C76B6B
+chats_onlineCircle: #A5AB6D
+featuredStickers_delButtonPressed: #8E4A4A
+chat_outAudioSelectedProgress: #5E2459
+chat_messageTextOut: #EEEAE4
+chat_inInstant: #E0CAAC
+avatar_backgroundSaved: #E0CAAC
+groupcreate_cursor: #E0CAAC
+returnToCallBackground: #E0CAAC
+checkboxSquareUnchecked: #6B5A5E
+dialogCheckboxSquareDisabled: #4A3D42
+chat_fieldOverlayText: #E0CAAC
+chat_messagePanelVoiceDuration: #EEEAE4
+player_actionBar: #22091F
+chats_sentReadCheck: #A5AB6D
+chat_messagePanelSend: #E0CAAC
+windowBackgroundWhiteRedText2: #C76B6B
+passport_authorizeBackground: #E0CAAC
+chats_nameIcon: #EEEAE4
+avatar_backgroundBlue: #8AA4C4
+chat_inSentClock: #A89C8E
+avatar_nameInMessageRed: #C76B6B
+dialogBadgeText: #190618
+chat_outLoaderPhoto: #A5AB6D
+chat_mediaLoaderPhotoIcon: #EEEAE4
+chat_attachPollIcon: #190618
+chat_emojiPanelStickerSetNameHighlight: #E0CAAC
+chat_mediaSentCheck: #EEEAE4
+chat_botSwitchToInlineText: #E0CAAC
+dialogTextRed2: #C76B6B
+chats_nameMessageArchived: #A89C8E
+avatar_nameInMessageOrange: #D4A86A
+featuredStickers_unread: #E0CAAC
+chats_pinnedIcon: #A89C8E
+chat_attachActiveTab: #E0CAAC
+chat_replyPanelLine: #2D1329
+dialogSearchHint: #6B5A5E
+chat_outSentCheckSelected: #A5AB6D
+chat_inVenueInfoSelectedText: #A89C8E
+dialogTextBlue2: #E0CAAC
+actionBarDefaultArchivedSelector: #2A1028
+dialogTextBlue3: #E0CAAC
+switchTrackBlueThumbChecked: #190618
+avatar_backgroundGroupCreateSpanBlue: #2A1028
+dialogTextBlue4: #E0CAAC
+chat_attachUnactiveTab: #A89C8E
+windowBackgroundWhiteGreenText: #A5AB6D
+actionBarTabActiveText: #EEEAE4
+chat_emojiPanelIcon: #A89C8E
+chat_topPanelMessage: #A89C8E
+chat_stickerNameText: #EEEAE4
+chat_emojiSearchIcon: #A89C8E
+chat_emojiPanelTrendingDescription: #A89C8E
+dialogRoundCheckBoxCheck: #190618
+calls_callReceivedGreenIcon: #A5AB6D
+chat_botButtonText: #EEEAE4
+dialogCameraIcon: #190618
+chats_pinnedOverlay: #FFFFFF08
+windowBackgroundWhiteInputField: #3A1838
+avatar_backgroundRed: #C76B6B
+actionBarDefaultArchivedSearch: #EEEAE4
+chat_stickerReplyNameText: #EEEAE4
+chat_emojiPanelBadgeBackground: #E0CAAC
+chat_inForwardedNameText: #E0CAAC
+chats_sentError: #C76B6B
+chat_messagePanelVideoFrame: #E0CAAC
+chats_actionBackground: #4C1E48
+avatar_nameInMessageGreen: #A5AB6D
+chat_outContactNameText: #A5AB6D
+chat_inSiteNameText: #E0CAAC
+chat_linkSelectBackground: #E0CAAC33
+dialogLinkSelection: #E0CAAC33
+windowBackgroundWhiteBlueText: #E0CAAC
+avatar_nameInMessageCyan: #9EC4C4
+chat_mediaLoaderPhotoIconSelected: #EEEAE4
+chat_inLocationBackground: #22091F
+contextProgressOuter3: #EEEAE4
+switch2TrackChecked: #E0CAAC
+contextProgressOuter4: #EEEAE4
+radioBackground: #6B5A5E
+actionBarDefaultSearch: #EEEAE4
+contextProgressOuter1: #E0CAAC
+contextProgressOuter2: #EEEAE4
+dialogTextGray3: #A89C8E
+chat_inFileIcon: #E0CAAC
+dialogTextGray2: #A89C8E
+dialogTextGray4: #6B5A5E
+chat_searchPanelIcons: #A89C8E
+windowBackgroundWhiteLinkText: #E0CAAC
+chat_inAudioSeekbarSelected: #6B5A5E
+chat_emojiPanelStickerPackSelectorLine: #E0CAAC
+chat_attachPermissionMark: #C76B6B
+chat_outVenueInfoText: #A89C8E
+chat_messagePanelPressedSend: #B8A088
+chat_inUpCall: #C76B6B
+chat_outContactPhoneText: #EEEAE4
+chat_inAudioTitleText: #E0CAAC
+actionBarDefaultArchivedIcon: #EEEAE4
+chat_messageLinkIn: #E0CAAC
+dialogFloatingButtonPressed: #B8A088
+chats_menuBackground: #22091F
+windowBackgroundCheckText: #190618
+windowBackgroundWhiteGrayLine: #2D1329
+chats_secretIcon: #A5AB6D
+chat_inFileBackground: #22091F
+chat_inBubbleSelected: #3A1838
+chat_outViewsSelected: #A89C8E
+chat_mediaMenu: #EEEAE4
+chat_outInstant: #A5AB6D
+chat_emojiPanelShadowLine: #00000022
+actionBarDefaultSearchPlaceholder: #A89C8EAA
+actionBarActionModeDefaultSelector: #2A1028
+chat_outForwardedNameText: #A5AB6D
+dialogRoundCheckBox: #E0CAAC
+chat_emojiPanelTrendingTitle: #EEEAE4
+featuredStickers_delButton: #C76B6B
+actionBarTabLine: #E0CAAC
+returnToCallText: #190618
+chat_stickersHintPanel: #22091F
+chats_nameMessageArchived_threeLines: #A89C8E
+windowBackgroundWhite: #190618
+chat_outUpCall: #A5AB6D
+chat_outSiteNameText: #A5AB6D
+chats_archiveIcon: #EEEAE4
+chat_inVoiceSeekbarSelected: #6B5A5E
+avatar_backgroundCyan: #7EA8A8
+dialogTextGray: #E0CAAC
+chat_messageLinkOut: #E0CAAC
+chat_emojiPanelStickerSetName: #A89C8E
+chats_nameArchived: #A89C8E
+dialogRadioBackgroundChecked: #E0CAAC
+avatar_backgroundArchived: #2A1028
+picker_badge: #E0CAAC
+fastScrollText: #190618
+chat_mediaViews: #EEEAE4
+chat_outFileInfoSelectedText: #A89C8E
+chats_tabletSelectedOverlay: #FFFFFF10
+avatar_backgroundArchivedHidden: #2D1329
+chats_unreadCounterText: #190618
+chat_outAudioDurationSelectedText: #A89C8E
+undo_background: #2A1028EA
+dialogTextHint: #6B5A5E
+chat_topPanelTitle: #E0CAAC
+chat_inAudioCacheSeekbar: #A89C8E3F
+chat_outContactIcon: #190618
+avatar_subtitleInProfileBlue: #A89C8E
+chat_inFileInfoText: #A89C8E
+key_chat_messagePanelVoiceLockShadow: #00000088
+featuredStickers_addButton: #E0CAAC
+chat_inPreviewLine: #E0CAAC
+avatar_backgroundGreen: #A5AB6D
+profile_creatorIcon: #E0CAAC
+chat_mediaTimeText: #EEEAE4
+profile_actionBackground: #22091F
+chats_sentCheck: #A5AB6D
+chats_unreadCounterMuted: #2A1028
+chat_outVoiceSeekbarFill: #A5AB6D
+chat_outReplyLine: #A5AB6D
+chat_inAudioSeekbarFill: #E0CAAC
+chat_attachCheckBoxBackground: #E0CAAC
+chat_messagePanelIcons: #A89C8E
+chat_inReplyMediaMessageText: #A89C8E
+inappPlayerTitle: #EEEAE4
+progressCircle: #E0CAAC
+chat_emojiPanelIconSelected: #E0CAAC
+chat_botKeyboardButtonBackground: #4C1E48
+chat_inContactBackground: #E0CAAC
+chats_menuItemIcon: #A89C8E
+chat_outVenueInfoSelectedText: #A89C8E
+chat_outBubbleShadow: #00000033
+checkboxSquareBackground: #E0CAAC
+chat_mediaSentClock: #EEEAE4
+files_folderIcon: #A89C8E
+chats_menuCloudBackgroundCats: #4C1E48
+switchTrackBlue: #6B5A5E
+chat_topPanelClose: #A89C8E
+actionBarBrowser: #22091F
+chats_verifiedBackground: #E0CAAC
+chat_inTimeSelectedText: #A89C8E
+chat_outFileBackgroundSelected: #6E3066
+chats_mentionIcon: #EEEAE4
+chat_outVoiceSeekbarSelected: #6B5A5E
+windowBackgroundWhiteGrayIcon: #A89C8E
+actionBarDefaultTitle: #EEEAE4
+windowBackgroundWhiteBlueButton: #E0CAAC
+profile_verifiedCheck: #190618
+chat_mediaTimeBackground: #00000099
+chat_secretTimerText: #EEEAE4
+listSelectorSDK21: #FFFFFF10
+chats_menuName: #EEEAE4
+key_chat_messagePanelVoiceLockBackground: #22091F
+chat_outFileNameText: #A5AB6D
+picker_enabledButton: #E0CAAC
+inappPlayerBackground: #22091F
+avatar_nameInMessagePink: #D4B1BE
+windowBackgroundWhiteGrayText: #A89C8E
+musicPicker_buttonBackground: #E0CAAC
+actionBarDefaultSubmenuItemIcon: #A89C8E
+chat_serviceIcon: #EEEAE4
+chats_actionIcon: #EEEAE4
+chat_attachPollBackground: #D4A86A
+avatar_nameInMessageBlue: #A8BCD8
+dialogTextBlack: #EEEAE4
+actionBarDefault: #22091F
+location_placeLocationBackground: #E0CAAC
+windowBackgroundUnchecked: #6B5A5E
+profile_actionIcon: #A89C8E
+actionBarDefaultSelector: #3A1838
+chat_outAudioPerfomerText: #A89C8E
+sharedMedia_startStopLoadIcon: #E0CAAC
+inappPlayerPlayPause: #E0CAAC
+sharedMedia_photoPlaceholder: #2A1028
+chat_inVenueInfoText: #A89C8E
+checkboxSquareDisabled: #4A3D42
+chat_replyPanelIcons: #E0CAAC
+fastScrollInactive: #6B5A5E
+chat_outSentClockSelected: #A89C8E
+featuredStickers_addedIcon: #E0CAAC
+chat_recordedVoicePlayPausePressed: #22091F
+switchTrackBlueSelectorChecked: #E0CAAC28
+chat_goDownButtonCounter: #190618
+musicPicker_checkbox: #E0CAAC
+chats_actionUnreadBackground: #22091F
+chat_outFileBackground: #5E2459
+chats_name: #EEEAE4
+switchTrackBlueSelector: #FFFFFF14
+dialogBadgeBackground: #E0CAAC
+chat_outBubbleSelected: #5E2459
+avatar_backgroundInProfileBlue: #4C1E48
+chat_lockIcon: #EEEAE4
+chat_inFileNameText: #E0CAAC
+chat_attachEmptyImage: #6B5A5E
+inappPlayerPerformer: #EEEAE4
+chat_inInstantSelected: #B8A088
+chat_outFileInfoText: #A89C8E
+chat_inLocationIcon: #A89C8E
+actionBarDefaultSearchArchivedPlaceholder: #A89C8EAA
+chat_outContactPhoneSelectedText: #EEEAE4
+chat_unreadMessagesStartBackground: #22091F
+chat_inLoaderPhoto: #22091F
+chats_archiveText: #EEEAE4
+chat_inFileInfoSelectedText: #A89C8E
+chat_inDownCall: #A5AB6D
+chat_outMenuSelected: #EEEAE4
+chats_sentErrorIcon: #EEEAE4
+fastScrollActive: #E0CAAC
+chat_outLoaderPhotoSelected: #8A9058
+chat_muteIcon: #6B5A5E
+chat_selectedBackground: #E0CAAC28
+chat_inAudioDurationText: #A89C8E
+chat_recordedVoiceBackground: #E0CAAC
+chat_secretTimeText: #A89C8E
+groupcreate_sectionText: #A89C8E
+actionBarDefaultSubmenuItem: #EEEAE4
+dialogInputFieldActivated: #E0CAAC
+chat_recordedVoicePlayPause: #190618
+chat_attachPermissionImage: #EEEAE4
+chats_actionMessage: #E0CAAC
+login_progressInner: #3A1838
+chat_inLoaderPhotoIcon: #EEEAE4
+avatar_actionBarSelectorBlue: #5E2459
+chat_addContact: #E0CAAC
+switchTrackChecked: #E0CAAC
+player_placeholderBackground: #0F0310
+windowBackgroundWhiteHintText: #6B5A5E
+chat_inLoader: #E0CAAC
+chat_adminSelectedText: #A89C8E
+groupcreate_spanText: #EEEAE4
+chat_outPreviewInstantSelectedText: #8A9058
+player_actionBarSelector: #FFFFFF10
+key_player_progressCachedBackground: #3A18384D
+avatar_actionBarIconBlue: #EEEAE4
+chat_outTimeText: #A89C8E
+chat_outBubble: #4C1E48
+chat_attachFileBackground: #E0CAAC
+chats_verifiedCheck: #190618
+chat_emojiPanelMasksIconSelected: #E0CAAC
+actionBarDefaultArchivedTitle: #EEEAE4
+chats_menuItemText: #EEEAE4
+chats_message: #A89C8E
+musicPicker_buttonIcon: #190618
+chats_menuTopBackgroundCats: #4C1E48
+chat_outReplyNameText: #A5AB6D
+chat_outReplyMediaMessageText: #A89C8E
+chat_textSelectBackground: #E0CAAC66
+chat_messagePanelVoiceDelete: #6B5A5E
+chat_mediaBroadcast: #EEEAE4
+chat_inAudioProgress: #2A1028
+dialogFloatingIcon: #190618
+chats_date: #A89C8E
+checkboxDisabled: #4A3D42
+actionBarTabSelector: #3A1838
+chat_messagePanelText: #EEEAE4
+key_sheet_scrollUp: #2A1028
+chat_attachLocationIcon: #190618
+player_buttonActive: #E0CAAC
+passport_authorizeText: #190618
+undo_cancelColor: #E0CAAC
+chat_outLoaderPhotoIcon: #190618
+chat_outContactBackground: #A5AB6D
+sharedMedia_linkPlaceholder: #2A1028
+windowBackgroundWhiteBlueText7: #B8A088
+chat_emojiPanelBadgeText: #190618
+windowBackgroundWhiteBlueText6: #E0CAAC
+calls_callReceivedRedIcon: #C76B6B
+windowBackgroundWhiteBlueText3: #E0CAAC
+chat_outLocationBackground: #5E2459
+windowBackgroundWhiteBlueText2: #E0CAAC
+windowBackgroundWhiteBlueText5: #E0CAAC
+windowBackgroundWhiteBlueText4: #B8A088
+chat_attachPermissionText: #A89C8E
+chat_replyPanelMessage: #EEEAE4
+stickers_menuSelector: #FFFFFF10
+chat_inViewsSelected: #A89C8E
+chat_emojiBottomPanelIcon: #A89C8E
+chat_mediaProgress: #EEEAE4
+windowBackgroundWhiteLinkSelection: #E0CAAC33
+player_background: #22091F
+inappPlayerClose: #A89C8E
+chats_message_threeLines: #A89C8E
+chat_outMediaIcon: #EEEAE4
+chat_attachContactBackground: #D4A86A
+chat_outAudioCacheSeekbar: #A89C8E3F
+player_actionBarSubtitle: #A89C8E
+chats_sentClock: #A89C8E
+chat_inAudioSeekbar: #4A3D42
+dialogSearchIcon: #A89C8E
+dialogFloatingButton: #E0CAAC
+chats_archiveBackground: #4C1E48
+chat_inPreviewInstantText: #E0CAAC
+dialog_liveLocationProgress: #E0CAAC
+chat_inViews: #A89C8E
+chat_messagePanelVoiceShadow: #00000033
+chats_menuCloud: #EEEAE4
+chat_outLoaderSelected: #8A9058
+dialogButtonSelector: #FFFFFF10
+chat_mediaInfoText: #EEEAE4
+chats_archivePinBackground: #22091F
+chats_menuItemCheck: #E0CAAC
+chat_messagePanelCursor: #E0CAAC
+player_actionBarItems: #A89C8E
+chat_attachFileIcon: #190618
+chat_sentError: #C76B6B
+chat_inAudioDurationSelectedText: #A89C8E
+player_progressBackground: #3A1838
+windowBackgroundWhiteGrayText2: #A89C8E
+chat_outAudioSeekbarSelected: #6B5A5E
+chat_outLoaderPhotoIconSelected: #190618
+player_actionBarTop: #000000AA
+windowBackgroundWhiteGrayText7: #4A3D42
+windowBackgroundWhiteGrayText8: #A89C8E
+windowBackgroundWhiteGrayText5: #6B5A5E
+windowBackgroundWhiteGrayText6: #6B5A5E
+windowBackgroundWhiteGrayText3: #A89C8E
+windowBackgroundWhiteGrayText4: #A89C8E
+chat_inTimeText: #A89C8E
+files_iconText: #190618
+dialogRadioBackground: #6B5A5E
+chat_attachCheckBoxCheck: #190618
+windowBackgroundWhiteRedText: #C76B6B
+chat_outReplyMessageText: #EEEAE4
+chat_recordedVoiceDot: #C76B6B
+chat_messagePanelBackground: #22091F
+chat_recordedVoiceProgress: #B8A088
+chat_inLoaderPhotoSelected: #4C1E48
+chats_messageArchived: #6B5A5E
+chat_shareBackground: #4C1E4866
+groupcreate_sectionShadow: #00000033
+chat_sentErrorIcon: #EEEAE4
+checkboxCheck: #190618
+chat_inVoiceSeekbarFill: #E0CAAC
+graySection: #22091F
+chat_outAudioSeekbar: #4A3D42
+chats_muteIcon: #6B5A5E
+chat_inVoiceSeekbar: #4A3D42
+chat_outFileProgress: #5E2459
+profile_verifiedBackground: #E0CAAC
+chat_outLoader: #A5AB6D
+chats_actionPressedBackground: #5E2459
+location_sendLocationIcon: #190618
+contacts_inviteText: #190618
+windowBackgroundWhiteGreenText2: #A5AB6D
+chat_replyPanelName: #E0CAAC
+chat_outMediaIconSelected: #EEEAE4
+windowBackgroundWhiteValueText: #E0CAAC
+chat_outAudioDurationText: #A89C8E
+chat_outMenu: #A89C8E
+chat_goDownButton: #22091F
+chats_secretName: #A5AB6D
+chat_inMenu: #A89C8E
+chats_actionUnreadIcon: #A89C8E
+chat_recordVoiceCancel: #A89C8E
+chat_outReplyMediaMessageSelectedText: #A89C8E
+chat_inFileSelectedIcon: #E0CAAC
+chat_mediaLoaderPhoto: #00000066
+undo_infoColor: #EEEAE4
+chat_reportSpam: #C76B6B
+dialogRedIcon: #C76B6B
+chat_messageTextIn: #EEEAE4
+chat_serviceText: #EEEAE4
+chat_emojiPanelMasksIcon: #EEEAE4
+chats_attachMessage: #E0CAAC
+chat_topPanelBackground: #22091F
+avatar_text: #190618
+dialogBackgroundGray: #0F0310
+chat_outSentClock: #A89C8E
+chat_searchPanelText: #EEEAE4
+chat_inContactIcon: #190618
+wallpaper: t.me/bg/tI3XHR24TFMCAAAAT7lmkIFYT5M?mode=tiled
+
+# ---------------------------------------------------------------------------- #
+#                                   TDesktop                                   #
+# ---------------------------------------------------------------------------- #
+
+name: Voc Dark
+shortname: vocdarktheme
+windowBg: #190618 // white: fallback for background
+windowFg: #EEEAE4 // black: fallback for text
+windowBgOver: #2A0D28 // light gray: fallback for background with mouse over
+windowBgRipple: #3A1636 // darker gray: fallback for ripple effect
+windowFgOver: windowFg // black: fallback for text with mouse over
+windowSubTextFg: #A48A9E // gray: fallback for additional text
+windowSubTextFgOver: #BBA0B4 // darker gray: fallback for additional text with mouse over
+windowBoldFg: #F5F1EA // dark gray: fallback for bold text
+windowBoldFgOver: #F5F1EA // dark gray: fallback for bold text with mouse over
+windowBgActive: #A5AB6D // bright blue: fallback for blue filled active areas
+windowFgActive: #EEEAE4 // white: fallback for text on active areas
+windowActiveTextFg: #E0CAAC // online blue: fallback for active text like online status
+windowShadowFg: #000000 // black: fallback for shadow
+windowShadowFgFallback: #3A1636 // gray: fallback for shadow without opacity
+shadowFg: #00000028 // most shadows (including opacity)
+slideFadeOutBg: #00000055 // slide animation (chat to profile) fade out filling
+slideFadeOutShadowFg: windowShadowFg // slide animation (chat to profile) fade out right section shadow
+imageBg: #000000 // image background fallback (when photo size is less than minimum allowed)
+imageBgTransparent: #190618 // image background when displaying an image with opacity where no opacity is needed
+activeButtonBg: #A5AB6D // default active button background
+activeButtonBgOver: #B8BE80 // default active button background with mouse over
+activeButtonBgRipple: #7D8354 // default active button ripple effect
+activeButtonFg: #1A0A18 // default active button text
+activeButtonFgOver: #1A0A18 // default active button text with mouse over
+activeButtonSecondaryFg: #E8EBC9 // default active button additional text (selected messages counter in forward / delete buttons)
+activeButtonSecondaryFgOver: #E8EBC9 // default active button additional text with mouse over
+activeLineFg: #E0CAAC // default active line (like code input field bottom border when you log in and field is focused)
+activeLineFgError: #C46A5A // default active line for error state (like code input field bottom border when you log in and you've entered incorrect code)
+lightButtonBg: #190618 // default light button background (like buttons in boxes)
+lightButtonBgOver: #4C1E48 // default light button background with mouse over
+lightButtonBgRipple: #5A2A56 // default light button ripple effect
+lightButtonFg: #E0CAAC // default light button text
+lightButtonFgOver: #ECD7BB // default light button text with mouse over
+attentionButtonFg: #C46A5A // default attention button text (like confirm button on log out)
+attentionButtonFgOver: #D48272 // default attention button text with mouse over
+attentionButtonBgOver: #5A2A26 // default attention button background with mouse over
+attentionButtonBgRipple: #7A3A30 // default attention button ripple effect
+menuBg: windowBg // default popup menu background
+menuBgOver: windowBgOver // default popup menu item background with mouse over
+menuBgRipple: windowBgRipple // default popup menu item ripple effect
+menuIconFg: #A48A9E // default popup menu item icon (like main menu)
+menuIconFgOver: #EEEAE4 // default popup menu item icon with mouse over
+menuSubmenuArrowFg: #A48A9E // default popup menu submenu arrow icon (like in message field context menu in case of RTL system language)
+menuFgDisabled: #6A5660 // default popup menu item disabled text (like unavailable items in message field context menu)
+menuSeparatorFg: #3A1935 // default popup menu separator (like in message field context menu)
+scrollBarBg: #EEEAE43C // default scroll bar current rectangle, the bar itself (like in chats list)
+scrollBarBgOver: #EEEAE466 // default scroll bar current rectangle with mouse over it
+scrollBg: #EEEAE41A // default scroll bar background
+scrollBgOver: #EEEAE428 // default scroll bar background with mouse over the scroll bar
+smallCloseIconFg: #A48A9E // small X icon (like in Show all sessions box to the right for sessions termination)
+smallCloseIconFgOver: #EEEAE4 // small X icon with mouse over
+radialFg: windowFgActive // default radial loader line (like in Media Viewer when loading a photo)
+radialBg: #00000066 // default radial loader background (like in Media Viewer when loading a photo)
+placeholderFg: windowSubTextFg // default input field placeholder when field is not focused (like in phone input field when you log in)
+placeholderFgActive: #857F75 // default input field placeholder when field is focused
+inputBorderFg: #3A1935 // default input field bottom border (like in code input field when you log in and field is not focused)
+filterInputBorderFg: #E0CAAC // default rounded input field border (like in chats list search field when field is focused)
+filterInputActiveBg: windowBg // default rounded input field active background (like in chats list search field when field is focused)
+filterInputInactiveBg: windowBgOver // default rounded input field inactive background (like in chats list search field when field is inactive)
+checkboxFg: #857F75 // default unchecked checkbox rounded rectangle
+botKbBg: menuBgOver // bot keyboard button background
+botKbDownBg: menuBgRipple // bot keyboard button ripple effect
+botKbColor: windowBoldFgOver // bot keyboard button text
+sliderBgInactive: #3A1636 // default slider not active bar (like in Settings when you choose interface scale or custom notifications count)
+sliderBgActive: windowBgActive // default slider active bar (like in Settings when you choose interface scale or custom notifications count)
+tooltipBg: #4C1E48 // tooltip background (like when you put mouse over the message timestamp and wait)
+tooltipFg: #EEEAE4 // tooltip text
+tooltipBorderFg: #6B3265 // tooltip border
+titleShadow: #00000008 // one pixel line shadow at the bottom of custom window title
+titleBg: windowBgOver // custom window title background when window is inactive
+titleBgActive: titleBg // custom window title background when window is active
+titleButtonBg: titleBg // custom window title minimize/maximize/restore button background when window is inactive (Windows only)
+titleButtonFg: #A48A9E // custom window title minimize/maximize/restore button icon when window is inactive (Windows only)
+titleButtonBgOver: #3A1636 // custom window title minimize/maximize/restore button background with mouse over when window is inactive (Windows only)
+titleButtonFgOver: #EEEAE4 // custom window title minimize/maximize/restore button icon with mouse over when window is inactive (Windows only)
+titleButtonBgActive: titleButtonBg // custom window title minimize/maximize/restore button background when window is active (Windows only)
+titleButtonFgActive: titleButtonFg // custom window title minimize/maximize/restore button icon when window is active (Windows only)
+titleButtonBgActiveOver: titleButtonBgOver // custom window title minimize/maximize/restore button background with mouse over when window is active (Windows only)
+titleButtonFgActiveOver: titleButtonFgOver // custom window title minimize/maximize/restore button icon with mouse over when window is active (Windows only)
+titleButtonCloseBg: titleButtonBg // custom window title close button background when window is inactive (Windows only)
+titleButtonCloseFg: titleButtonFg // custom window title close button icon when window is inactive (Windows only)
+titleButtonCloseBgOver: #A83A3A // custom window title close button background with mouse over when window is inactive (Windows only)
+titleButtonCloseFgOver: windowFgActive // custom window title close button icon with mouse over when window is inactive (Windows only)
+titleButtonCloseBgActive: titleButtonCloseBg // custom window title close button background when window is active (Windows only)
+titleButtonCloseFgActive: titleButtonCloseFg // custom window title close button icon when window is active (Windows only)
+titleButtonCloseBgActiveOver: titleButtonCloseBgOver // custom window title close button background with mouse over when window is active (Windows only)
+titleButtonCloseFgActiveOver: titleButtonCloseFgOver // custom window title close button icon with mouse over when window is active (Windows only)
+titleFg: #A48A9E // custom window title text when window is inactive (macOS only)
+titleFgActive: #EEEAE4 // custom window title text when window is active (macOS only)
+trayCounterBg: #A5AB6D // tray icon counter background
+trayCounterBgMute: #6A5660 // tray icon counter background if all unread messages are muted
+trayCounterFg: #1A0A18 // tray icon counter text
+trayCounterBgMacInvert: #EEEAE4 // tray icon counter background when tray icon is pressed or when dark theme of macOS is used (macOS only)
+trayCounterFgMacInvert: #EEEAE401 // tray icon counter text when tray icon is pressed or when dark theme of macOS is used (macOS only)
+layerBg: #00000099 // box and main menu background layer fade
+cancelIconFg: menuIconFg // default for settings close icon and box search cancel icon
+cancelIconFgOver: menuIconFgOver // default for settings close icon and box search cancel icon with mouse over
+boxBg: windowBg // box background
+boxTextFg: windowFg // box text
+boxTextFgGood: #A5AB6D // accepted box text (like when choosing username that is not occupied)
+boxTextFgError: #C46A5A // rejecting box text (like when choosing username that is occupied)
+boxTitleFg: #EEEAE4 // box title text
+boxSearchBg: boxBg // box search field background (like in contacts box)
+boxTitleAdditionalFg: #A48A9E // box title additional text (like in create group box when you see chosen members count)
+boxTitleCloseFg: cancelIconFg // settings close icon and box search cancel icon (like in contacts box)
+boxTitleCloseFgOver: cancelIconFgOver // settings close icon and box search cancel icon (like in contacts box) with mouse over
+membersAboutLimitFg: windowSubTextFgOver // text in channel members box about the limit (max 200 last members are shown)
+contactsBg: windowBg // contacts (and some other) box row background
+contactsBgOver: windowBgOver // contacts (and some other) box row background with mouse over
+contactsNameFg: boxTextFg // contacts (and some other) box row name text
+contactsStatusFg: windowSubTextFg // contacts (and some other) box row additional text (like last seen stamp)
+contactsStatusFgOver: windowSubTextFgOver // contacts (and some other) box row additional text (like last seen stamp) with mouse over
+contactsStatusFgOnline: windowActiveTextFg // contacts (and some other) box row active additional text (like online status)
+photoCropFadeBg: layerBg // avatar crop box fade background (when choosing a new photo in Settings or for a group)
+photoCropPointFg: #FFFFFF7F // avatar crop box corner rectangles (when choosing a new photo in Settings or for a group)
+callArrowFg: #A5AB6D // received phone call arrow (in calls list box)
+callArrowMissedFg: #C46A5A // missed phone call arrow (in calls list box)
+introBg: windowBg // login background
+introTitleFg: windowBoldFg // login title text
+introDescriptionFg: windowSubTextFg // login description text
+introErrorFg: windowSubTextFg // login error text (like when providing a wrong log in code)
+introCoverTopBg: #4C1E48 // intro gradient top (from)
+introCoverBottomBg: #6B3265 // intro gradient bottom (to)
+introCoverIconsFg: #E0CAAC // intro cloud graphics
+introCoverPlaneTrace: #E0CAAC55 // intro plane traces
+introCoverPlaneInner: #E0CAAC // intro plane part
+introCoverPlaneOuter: #C4A876 // intro plane part
+introCoverPlaneTop: #EEEAE4 // intro plane part
+dialogsMenuIconFg: menuIconFg // main menu and lock telegram icon
+dialogsMenuIconFgOver: menuIconFgOver // main menu and lock telegram icon with mouse over
+dialogsBg: windowBg // chat list background
+dialogsNameFg: windowBoldFg // chat list name text
+dialogsChatIconFg: dialogsNameFg // chat list group or channel icon
+dialogsDateFg: windowSubTextFg // chat list date text
+dialogsTextFg: windowSubTextFg // chat list message text
+dialogsTextFgService: windowActiveTextFg // chat list group sender name text (or media message type text)
+dialogsDraftFg: #C46A5A // chat list draft label
+dialogsVerifiedIconBg: windowBgActive // chat list verified icon background
+dialogsVerifiedIconFg: #1A0A18 // chat list verified icon check
+dialogsSendingIconFg: #A48A9E // chat list sending message icon (clock)
+dialogsSentIconFg: #A5AB6D // chat list sent message tick / double tick icon
+dialogsUnreadBg: windowBgActive // chat list unread badge background for not muted chat
+dialogsUnreadBgMuted: #6A5660 // chat list unread badge background for muted chat
+dialogsUnreadFg: #1A0A18 // chat list unread badge text
+dialogsArchiveFg: #A48A9E // chat list archive name text
+dialogsOnlineBadgeFg: #A5AB6D // chat list online status
+dialogsScamFg: dialogsDraftFg // chat list scam label
+dialogsBgOver: windowBgOver // chat list background with mouse over
+dialogsNameFgOver: windowBoldFgOver // chat list name text with mouse over
+dialogsChatIconFgOver: dialogsNameFgOver // chat list group or channel icon with mouse over
+dialogsDateFgOver: windowSubTextFgOver // chat list date text with mouse over
+dialogsTextFgOver: windowSubTextFgOver // chat list message text with mouse over
+dialogsTextFgServiceOver: dialogsTextFgService // chat list group sender name text with mouse over
+dialogsDraftFgOver: dialogsDraftFg // chat list draft label with mouse over
+dialogsVerifiedIconBgOver: dialogsVerifiedIconBg // chat list verified icon background with mouse over
+dialogsVerifiedIconFgOver: dialogsVerifiedIconFg // chat list verified icon check with mouse over
+dialogsSendingIconFgOver: dialogsSendingIconFg // chat list sending message icon (clock) with mouse over
+dialogsSentIconFgOver: dialogsSentIconFg // chat list sent message tick / double tick icon with mouse over
+dialogsUnreadBgOver: dialogsUnreadBg // chat list unread badge background for not muted chat with mouse over
+dialogsUnreadBgMutedOver: dialogsUnreadBgMuted // chat list unread badge background for muted chat with mouse over
+dialogsUnreadFgOver: dialogsUnreadFg // chat list unread badge text with mouse over
+dialogsArchiveFgOver: #BBA0B4 // chat list archive name text with mouse over
+dialogsScamFgOver: dialogsDraftFgOver // chat list scam label with mouse over
+dialogsBgActive: #4C1E48 // chat list background for current (active) chat
+dialogsNameFgActive: #EEEAE4 // chat list name text for current (active) chat
+dialogsChatIconFgActive: dialogsNameFgActive // chat list group or channel icon for current (active) chat
+dialogsDateFgActive: #EEEAE4 // chat list date text for current (active) chat
+dialogsTextFgActive: #E5DFD5 // chat list message text for current (active) chat
+dialogsTextFgServiceActive: dialogsTextFgActive // chat list group sender name text for current (active) chat
+dialogsDraftFgActive: #E8A898 // chat list draft label for current (active) chat
+dialogsVerifiedIconBgActive: dialogsTextFgActive // chat list verified icon background for current (active) chat
+dialogsVerifiedIconFgActive: dialogsBgActive // chat list verified icon check for current (active) chat
+dialogsSendingIconFgActive: #EEEAE499 // chat list sending message icon (clock) for current (active) chat
+dialogsSentIconFgActive: dialogsTextFgActive // chat list sent message tick / double tick icon for current (active) chat
+dialogsUnreadBgActive: dialogsTextFgActive // chat list unread badge background for not muted chat for current (active) chat
+dialogsUnreadBgMutedActive: dialogsDraftFgActive // chat list unread badge background for muted chat for current (active) chat
+dialogsUnreadFgActive: dialogsBgActive // chat list unread badge text for current (active) chat
+dialogsOnlineBadgeFgActive: #A5AB6D // chat list online status for current (active) chat
+dialogsScamFgActive: dialogsDraftFgActive // chat list scam label for current (active) chat
+dialogsRippleBg: windowBgRipple // chat list background ripple effect
+dialogsRippleBgActive: #6B3265 // chat list background ripple effect for current (active) chat
+dialogsForwardBg: dialogsBgActive // forwarding panel background (when forwarding messages in the smallest window size)
+dialogsForwardFg: dialogsNameFgActive // forwarding panel text (when forwarding messages in the smallest window size)
+searchedBarBg: windowBgOver // search results bar background (in chats list, contacts box..)
+searchedBarFg: windowSubTextFgOver // search results bar text (in chats list, contacts box..)
+topBarBg: windowBg // top bar background (in chat view, media overview..)
+emojiPanBg: windowBg // emoji panel background
+emojiPanCategories: #2A0D28 // emoji panel categories background
+emojiPanHeaderFg: windowSubTextFg // emoji panel section header text
+emojiPanHeaderBg: #190618F2 // emoji panel section header background
+emojiIconFg: checkboxFg // emoji category icon
+emojiIconFgActive: windowBgActive // active emoji category icon
+stickerPanDeleteBg: #000000 // delete X button background for custom sent stickers in stickers panel (legacy)
+stickerPanDeleteFg: windowFgActive // delete X button icon for custom sent stickers in stickers panel (legacy)
+stickerPreviewBg: #190618B0 // sticker and GIF preview background (when you press and hold on a sticker)
+historyTextInFg: windowFg // inbox message text
+historyTextInFgSelected: historyTextInFg // inbox message selected text or text in a selected message
+historyTextOutFg: windowFg // outbox message text
+historyTextOutFgSelected: historyTextOutFg // outbox message selected text or text in a selected message
+historyLinkInFg: windowActiveTextFg // inbox message link
+historyLinkInFgSelected: historyLinkInFg // inbox message link in a selected text or message
+historyLinkOutFg: windowActiveTextFg // outbox message link
+historyLinkOutFgSelected: historyLinkOutFg // outbox message link in a selected text or message
+historyFileNameInFg: historyTextInFg // inbox media filename text
+historyFileNameInFgSelected: historyFileNameInFg // inbox media filename text in a selected message
+historyFileNameOutFg: historyTextOutFg // outbox media filename text
+historyFileNameOutFgSelected: historyFileNameOutFg // outbox media filename text in a selected message
+historyOutIconFg: dialogsSentIconFg // outbox message tick / double tick icon
+historyOutIconFgSelected: #B8BE80 // outbox message tick / double tick icon in a selected message
+historyIconFgInverted: windowFgActive // media message tick / double tick icon (like in sent photo)
+historySendingOutIconFg: #A89A82 // outbox sending message icon (clock)
+historySendingInIconFg: #A48A9E // inbox sending message icon (clock) (like in sent messages to yourself or in sent messages to a channel)
+historySendingInvertedIconFg: #EEEAE4C8 // media sending message icon (clock) (like in sent photo)
+historyCallArrowInFg: callArrowFg // received phone call arrow
+historyCallArrowInFgSelected: callArrowFg // received phone call arrow in a selected message
+historyCallArrowMissedInFg: callArrowMissedFg // missed phone call arrow
+historyCallArrowMissedInFgSelected: callArrowMissedFg // missed phone call arrow in a selected message
+historyCallArrowOutFg: historyCallArrowInFg // outgoing phone call arrow
+historyCallArrowOutFgSelected: historyCallArrowInFgSelected // outgoing phone call arrow
+historyUnreadBarBg: #2A0D28 // new unread messages bar background
+historyUnreadBarBorder: shadowFg // new unread messages bar shadow
+historyUnreadBarFg: #E0CAAC // new unread messages bar text
+historyForwardChooseBg: #00000099 // forwarding messages in a large window size "choose recipient" background
+historyForwardChooseFg: windowFgActive // forwarding messages in a large window size "choose recipient" text
+historyPeer1NameFg: #C46A5A // red group member name
+historyPeer1NameFgSelected: historyPeer1NameFg // red group member name in a selected message
+historyPeer1UserpicBg: #8A3A3A // red userpic background
+historyPeer2NameFg: #A5AB6D // green group member name
+historyPeer2NameFgSelected: historyPeer2NameFg // green group member name in a selected message
+historyPeer2UserpicBg: #7D8354 // green userpic background
+historyPeer3NameFg: #E0CAAC // yellow group member name
+historyPeer3NameFgSelected: historyPeer3NameFg // yellow group member name in a selected message
+historyPeer3UserpicBg: #B8A07C // yellow userpic background
+historyPeer4NameFg: #C58EB8 // blue group member name
+historyPeer4NameFgSelected: historyPeer4NameFg // blue group member name in a selected message
+historyPeer4UserpicBg: #8F5C83 // blue userpic background
+historyPeer5NameFg: #B894C9 // purple group member name
+historyPeer5NameFgSelected: historyPeer5NameFg // purple group member name in a selected message
+historyPeer5UserpicBg: #7A5C8F // purple userpic background
+historyPeer6NameFg: #D98A9A // pink group member name
+historyPeer6NameFgSelected: historyPeer6NameFg // pink group member name in a selected message
+historyPeer6UserpicBg: #A3586A // pink userpic background
+historyPeer7NameFg: #9AB38E // sea group member name
+historyPeer7NameFgSelected: historyPeer7NameFg // sea group member name in a selected message
+historyPeer7UserpicBg: #6D8560 // sea userpic background
+historyPeer8NameFg: #D9A877 // orange group member name
+historyPeer8NameFgSelected: historyPeer8NameFg // orange group member name in a selected message
+historyPeer8UserpicBg: #A87A4E // orange userpic background
+historyPeerUserpicFg: #1A0A18 // default userpic initials
+historyPeerSavedMessagesBg: historyPeer4UserpicBg // saved messages userpic background
+historyPeerArchiveUserpicBg: dialogsUnreadBgMuted // archive folder userpic background
+historyScrollBarBg: #91A8707A // scroll bar current rectangle, the bar itself in the chat view (adjusted)
+historyScrollBarBgOver: #91A870BC // scroll bar current rectangle with mouse over it in the chat view (adjusted)
+historyScrollBg: #91A8704C // scroll bar background (adjusted)
+historyScrollBgOver: #91A8706B // scroll bar background with mouse over the scroll bar (adjusted)
+msgInBg: windowBg // inbox message background
+msgInBgSelected: #3A1936 // inbox selected message background (and background of selected text in those messages)
+msgOutBg: #2D1A2A // outbox message background
+msgOutBgSelected: #4A2D46 // outbox selected message background (and background of selected text in those messages)
+msgSelectOverlay: #A5AB6D4C // overlay which is filling the media parts of selected messages (like in selected photo message)
+msgStickerOverlay: #A5AB6D7F // overlay which is filling the selected sticker message
+msgInServiceFg: windowActiveTextFg // inbox message information text (like information about a forwarded message original sender)
+msgInServiceFgSelected: windowActiveTextFg // inbox selected message information text (like information about a forwarded message original sender)
+msgOutServiceFg: #E0CAAC // outbox message information text (like information about a forwarded message original sender)
+msgOutServiceFgSelected: #ECD7BB // outbox message information text (like information about a forwarded message original sender)
+msgInShadow: #00000066 // inbox message shadow (below the bubble)
+msgInShadowSelected: #00000066 // inbox selected message shadow (below the bubble)
+msgOutShadow: #00000066 // outbox message shadow (below the bubble)
+msgOutShadowSelected: #00000066 // outbox selected message shadow (below the bubble)
+msgInDateFg: #A48A9E // inbox message time text
+msgInDateFgSelected: #BBA0B4 // inbox selected message time text
+msgOutDateFg: #8A7E6A // outbox message time text
+msgOutDateFgSelected: #A89A82 // outbox selected message time text
+msgServiceFg: #EEEAE4 // service message text (like date dividers or service message about the group title being changed)
+msgServiceBg: #37422899 // service message background (like in a service message about group title being changed) (adjusted)
+msgServiceBgSelected: #52613CB2 // service message selected text background (like in a service message about group title being changed) (adjusted)
+msgInReplyBarColor: activeLineFg // inbox message reply outline
+msgInReplyBarSelColor: activeLineFg // inbox selected message reply outline
+msgOutReplyBarColor: historyOutIconFg // outbox message reply outline
+msgOutReplyBarSelColor: historyOutIconFgSelected // outbox selected message reply outline
+msgImgReplyBarColor: msgServiceFg // sticker message reply outline
+msgInMonoFg: #A5AB6D // inbox message monospace text (like a message sent with `test` text)
+msgOutMonoFg: #A5AB6D // outbox message monospace text
+msgInMonoFgSelected: msgInMonoFg // inbox message monospace text in a selected text or message
+msgOutMonoFgSelected: msgOutMonoFg // outbox message monospace text in a selected text or message
+msgDateImgFg: msgServiceFg // media message time text (like time text in a sent photo)
+msgDateImgBg: #00000066 // media message time bubble background (like time bubble in a sent photo) or file with thumbnail download icon circle background
+msgDateImgBgOver: #00000088 // media message download icon circle background with mouse over (like file with thumbnail download icon)
+msgDateImgBgSelected: #4C1E4888 // selected media message time bubble background
+msgFileThumbLinkInFg: lightButtonFg // inbox media file message with thumbnail download / open with button text
+msgFileThumbLinkInFgSelected: lightButtonFgOver // inbox selected media file message with thumbnail download / open with button text
+msgFileThumbLinkOutFg: #E0CAAC // outbox media file message with thumbnail download / open with button text
+msgFileThumbLinkOutFgSelected: #ECD7BB // outbox selected media file message with thumbnail download / open with button text
+msgFileInBg: windowBgActive // inbox audio file download circle background
+msgFileInBgOver: #B8BE80 // inbox audio file download circle background with mouse over
+msgFileInBgSelected: #7D8354 // inbox selected audio file download circle background
+msgFileOutBg: #E0CAAC // outbox audio file download circle background
+msgFileOutBgOver: #ECD7BB // outbox audio file download circle background with mouse over
+msgFileOutBgSelected: #C4A876 // outbox selected audio file download circle background
+msgFile1Bg: #6B3265 // blue shared links / files without image square thumbnail
+msgFile1BgDark: #4C1E48 // blue shared files without image download circle background
+msgFile1BgOver: #7D3C77 // blue shared files without image download circle background with mouse over
+msgFile1BgSelected: #6B3265 // blue shared files without image download circle background if file is selected
+msgFile2Bg: #A5AB6D // green shared links / shared files without image square thumbnail
+msgFile2BgDark: #7D8354 // green shared files without image download circle background
+msgFile2BgOver: #B8BE80 // green shared files without image download circle background with mouse over
+msgFile2BgSelected: #7D8354 // green shared files without image download circle background if file is selected
+msgFile3Bg: #C46A5A // red shared links / shared files without image square thumbnail
+msgFile3BgDark: #8A3A3A // red shared files without image download circle background
+msgFile3BgOver: #B05A4A // red shared files without image download circle background with mouse over
+msgFile3BgSelected: #7A3A30 // red shared files without image download circle background if file is selected
+msgFile4Bg: #E0CAAC // yellow shared links / shared files without image square thumbnail
+msgFile4BgDark: #C4A876 // yellow shared files without image download circle background
+msgFile4BgOver: #B8A07C // yellow shared files without image download circle background with mouse over
+msgFile4BgSelected: #8A7E6A // yellow shared files without image download circle background if file is selected
+historyFileInIconFg: msgInBg // inbox file without thumbnail (like audio file) download arrow icon
+historyFileInIconFgSelected: msgInBgSelected // inbox selected file without thumbnail (like audio file) download arrow icon
+historyFileInRadialFg: historyFileInIconFg // inbox file without thumbnail (like audio file) radial download animation line
+historyFileInRadialFgSelected: historyFileInIconFgSelected // inbox selected file without thumbnail (like audio file) radial download animation line
+historyFileOutIconFg: msgOutBg // outbox file without thumbnail (like audio file) download arrow icon
+historyFileOutIconFgSelected: msgOutBgSelected // outbox selected file without thumbnail (like audio file) download arrow icon
+historyFileOutRadialFg: historyFileOutIconFg // outbox file without thumbnail (like audio file) radial download animation line
+historyFileOutRadialFgSelected: historyFileOutIconFgSelected // outbox selected file without thumbnail (like audio file) radial download animation line
+historyFileThumbIconFg: msgInBg // file with thumbnail (or photo / video) download arrow icon
+historyFileThumbIconFgSelected: msgInBgSelected // selected file with thumbnail (or photo / video) download arrow icon
+historyFileThumbRadialFg: historyFileThumbIconFg // file with thumbnail (or photo / video) radial download animation line
+historyFileThumbRadialFgSelected: historyFileThumbIconFgSelected // selected file with thumbnail (or photo / video) radial download animation line
+historyVideoMessageProgressFg: historyFileThumbIconFg // radial playback progress in round video messages
+msgWaveformInActive: windowBgActive // inbox voice message active waveform lines (like played part of currently playing voice message)
+msgWaveformInActiveSelected: #B8BE80 // inbox selected voice message active waveform lines (like played part of currently playing voice message)
+msgWaveformInInactive: #5A4050 // inbox voice message inactive waveform lines (like upcoming part of currently playing voice message)
+msgWaveformInInactiveSelected: #7A5470 // inbox selected voice message inactive waveform lines (like upcoming part of currently playing voice message)
+msgWaveformOutActive: #E0CAAC // outbox voice message active waveform lines (like played part of currently playing voice message)
+msgWaveformOutActiveSelected: #ECD7BB // outbox selected voice message active waveform lines (like played part of currently playing voice message)
+msgWaveformOutInactive: #5A4A38 // outbox voice message inactive waveform lines (like upcoming part of currently playing voice message)
+msgWaveformOutInactiveSelected: #7A6848 // outbox selected voice message inactive waveform lines (like upcoming part of currently playing voice message)
+msgBotKbOverBgAdd: #EEEAE420 // this is painted over a bot inline keyboard button (which has msgServiceBg background) when mouse is over that button
+msgBotKbIconFg: msgServiceFg // bot inline keyboard button icon in the top-right corner (like in @vote bot when a poll is ready to be shared)
+msgBotKbRippleBg: #00000028 // bot inline keyboard button ripple effect
+mediaInFg: msgInDateFg // inbox media message status text (like in file that is being downloaded)
+mediaInFgSelected: msgInDateFgSelected // inbox selected media message status text (like in file that is being downloaded)
+mediaOutFg: msgOutDateFg // outbox media message status text (like in file that is being downloaded)
+mediaOutFgSelected: msgOutDateFgSelected // outbox selected media message status text (like in file that is being downloaded)
+youtubePlayIconBg: #C46A5AC8 // youtube play icon background (when a link to a youtube video with a webpage preview is sent)
+youtubePlayIconFg: windowFgActive // youtube play icon arrow (when a link to a youtube video with a webpage preview is sent)
+videoPlayIconBg: #0000007F // other video play icon background (like when a link to a vimeo video with a webpage preview is sent)
+videoPlayIconFg: #EEEAE4 // other video play icon arrow (like when a link to a vimeo video with a webpage preview is sent)
+toastBg: #000000CC // toast notification background (like when you click on your t.me link when editing your username)
+toastFg: windowFgActive // toast notification text (like when you click on your t.me link when editing your username)
+reportSpamBg: emojiPanHeaderBg // report spam panel background (like a non contact user writes your for the first time)
+reportSpamFg: windowFg // report spam panel text (when you send a report from that panel)
+historyToDownBg: windowBg // arrow button background (to scroll to the end of the viewed chat)
+historyToDownBgOver: windowBgOver // arrow button background with mouse over
+historyToDownBgRipple: windowBgRipple // arrow button ripple effect
+historyToDownFg: menuIconFg // arrow button icon
+historyToDownFgOver: menuIconFgOver // arrow button icon with mouse over
+historyToDownShadow: #00000040 // arrow button shadow
+historyComposeAreaBg: msgInBg // history compose area background (message write area / reply information / forwarding information)
+historyComposeAreaFg: historyTextInFg // history compose area text
+historyComposeAreaFgService: msgInDateFg // history compose area text when replying to a media message
+historyComposeIconFg: menuIconFg // history compose area icon (like emoji, attach, bot command..)
+historyComposeIconFgOver: menuIconFgOver // history compose area icon with mouse over
+historySendIconFg: windowBgActive // send message icon
+historySendIconFgOver: windowBgActive // send message icon with mouse over
+historyPinnedBg: historyComposeAreaBg // pinned message area background
+historyReplyBg: historyComposeAreaBg // reply / forward / edit message area background
+historyReplyIconFg: windowBgActive // reply / forward / edit message left icon
+historyReplyCancelFg: cancelIconFg // reply / forward / edit message cancel button
+historyReplyCancelFgOver: cancelIconFgOver // reply / forward / edit message cancel button with mouse over
+historyComposeButtonBg: historyComposeAreaBg // unblock / join channel / mute channel button background
+historyComposeButtonBgOver: windowBgOver // unblock / join channel / mute channel button background with mouse over
+historyComposeButtonBgRipple: windowBgRipple // unblock / join channel / mute channel button ripple effect
+mapPointDrop: #C46A5A // geo location marker background
+mapPointDot: #EEEAE4 // geo location marker point
+overviewCheckBg: #00000055 // shared media / files / links checkbox background for not selected rows when some rows are selected
+overviewCheckBgActive: windowBgActive // shared media / files / links checkbox background for selected rows
+overviewCheckBorder: windowBg // shared media round checkbox border
+overviewCheckFg: windowBg // shared files / links checkbox icon for not selected rows when some rows are selected
+overviewCheckFgActive: windowBg // shared files / links checkbox icon for selected rows
+overviewPhotoSelectOverlay: #A5AB6D33 // shared photos / videos / links fill for selected rows
+profileStatusFgOver: #BBA0B4 // group members list in group profile user last seen text with mouse over
+profileVerifiedCheckBg: windowBgActive // profile verified check icon background
+profileVerifiedCheckFg: #1A0A18 // profile verified check icon tick
+profileAdminStartFg: windowBgActive // group members list creator star icon
+profileAdminStarFgOver: profileAdminStartFg // group members list creator star icon with mouse over
+profileOtherAdminStarFg: windowSubTextFg // group members list admin star icon
+profileOtherAdminStarFgOver: profileStatusFgOver // group members list admin star icon with mouse over
+notificationsBoxMonitorFg: windowFg // custom notifications settings box monitor color
+notificationsBoxScreenBg: dialogsBgActive // #6389a8; // custom notifications settings box monitor screen background
+notificationSampleUserpicFg: windowBgActive // custom notifications settings box small sample userpic placeholder
+notificationSampleCloseFg: #6A5660 // custom notifications settings box small sample close button placeholder
+notificationSampleTextFg: #6A5660 // custom notifications settings box small sample text placeholder
+notificationSampleNameFg: #A48A9E // custom notifications settings box small sample name placeholder
+changePhoneSimcardFrom: notificationSampleTextFg // change phone number box left simcard icon
+changePhoneSimcardTo: notificationSampleNameFg // change phone number box right simcard and plane icons
+mainMenuBg: windowBg // main menu background
+mainMenuCoverBg: dialogsBgActive // main menu top cover background
+mainMenuCoverFg: #EEEAE4 // main menu top cover text
+mainMenuCloudFg: activeButtonFg // 
+mainMenuCloudBg: #4C1E48 // 
+mediaPlayerBg: windowBg // audio file player background
+mediaPlayerActiveFg: windowBgActive // audio file player playback progress already played part
+mediaPlayerInactiveFg: sliderBgInactive // audio file player playback progress upcoming (not played yet) part with mouse over
+mediaPlayerDisabledFg: #9DD1EF // audio file player loading progress (when you're playing an audio file and switch to the previous one which is not loaded yet)
+mediaviewFileBg: windowBg // file rectangle background (when you view a png file in Media Viewer and go to a previous, not loaded yet, file)
+mediaviewFileNameFg: windowFg // file name in file rectangle
+mediaviewFileSizeFg: windowSubTextFg // file size text in file rectangle
+mediaviewFileRedCornerFg: #C46A5A // red file thumbnail placeholder corner in file rectangle (for a file without thumbnail, like .pdf)
+mediaviewFileYellowCornerFg: #E0CAAC // yellow file thumbnail placeholder corner in file rectangle (for a file without thumbnail, like .zip)
+mediaviewFileGreenCornerFg: #A5AB6D // green file thumbnail placeholder corner in file rectangle (for a file without thumbnail, like .exe)
+mediaviewFileBlueCornerFg: #6B3265 // blue file thumbnail placeholder corner in file rectangle (for a file without thumbnail, like .dmg)
+mediaviewFileExtFg: activeButtonFg // file extension text in file thumbnail placeholder in file rectangle
+mediaviewMenuBg: #2A0D28 // context menu in Media Viewer background
+mediaviewMenuBgOver: #3A1636 // context menu item background with mouse over
+mediaviewMenuBgRipple: #4C1E48 // context menu item ripple effect
+mediaviewMenuFg: windowFgActive // context menu item text
+mediaviewBg: #0E0310EB // Media Viewer background
+mediaviewVideoBg: imageBg // Media Viewer background when viewing a video in full screen
+mediaviewControlBg: #00000055 // controls background (like next photo / previous photo)
+mediaviewControlFg: windowFgActive // controls icon (like next photo / previous photo)
+mediaviewCaptionBg: #19061890 // caption text background (when viewing photo with caption)
+mediaviewCaptionFg: mediaviewControlFg // caption text
+mediaviewTextLinkFg: #E0CAAC // caption text link
+mediaviewSaveMsgBg: toastBg // save to file toast message background in Media Viewer
+mediaviewSaveMsgFg: toastFg // save to file toast message text
+mediaviewPlaybackActive: #C4A876 // video playback progress already played part
+mediaviewPlaybackInactive: #2A0D28 // video playback progress upcoming (not played yet) part
+mediaviewPlaybackActiveOver: #EEEAE4 // video playback progress already played part with mouse over
+mediaviewPlaybackInactiveOver: #3A1636 // video playback progress upcoming (not played yet) part with mouse over
+mediaviewPlaybackProgressFg: #EEEAE4C7 // video playback progress text
+mediaviewPlaybackIconFg: mediaviewPlaybackActive // video playback controls icon
+mediaviewPlaybackIconFgOver: mediaviewPlaybackActiveOver // video playback controls icon with mouse over
+mediaviewTransparentBg: #EEEAE4 // transparent filling part (when viewing a transparent .png file in Media Viewer)
+mediaviewTransparentFg: #C4BEB4 // another transparent filling part
+notificationBg: windowBg // custom notification window background
+callBg: #1A0818F2 // phone call popup background
+callNameFg: #EEEAE4 // phone call popup name text
+callFingerprintBg: #00000066 // phone call popup emoji fingerprint background
+callStatusFg: #A48A9E // phone call popup status text
+callIconFg: #EEEAE4 // phone call popup answer, hangup and mute mic icon
+callAnswerBg: #A5AB6D // phone call popup answer button background
+callAnswerRipple: #7D8354 // phone call popup answer button ripple effect
+callAnswerBgOuter: #A5AB6D26 // phone call popup answer button outer ripple effect
+callHangupBg: #C46A5A // phone call popup hangup button background
+callHangupRipple: #8A3A3A // phone call popup hangup button ripple effect
+callCancelBg: #4C1E48 // phone call popup line busy cancel button background
+callCancelFg: #EEEAE4 // phone call popup line busy cancel button icon
+callCancelRipple: #3A1636 // phone call popup line busy cancel button ripple effect
+callMuteRipple: #EEEAE412 // phone call popup mute mic ripple effect
+callBarBg: dialogsBgActive // active phone call bar background
+callBarMuteRipple: dialogsRippleBgActive // active phone call bar mute and hangup button ripple effect
+callBarBgMuted: #6A5660 // phone call bar with muted mic background
+callBarUnmuteRipple: #857F75 // phone call bar with muted mic mute and hangup button ripple effect
+callBarFg: dialogsNameFgActive // phone call bar text and icons
+importantTooltipBg: toastBg // 
+importantTooltipFg: toastFg // 
+importantTooltipFgLink: mediaviewTextLinkFg // 
+outdatedFg: #EEEAE4 // 
+outdateSoonBg: #C4A876 // 
+outdatedBg: #C46A5A // 
+sideBarBg: #190618
+sideBarBgActive: #4C1E48
+sideBarBgRipple: #A5AB6D
+sideBarIconFgActive: #E0CAAC
+sideBarTextFgActive: #E0CAAC
+sideBarBadgeBg: #A5AB6D
+sideBarIconFg: #A5AB6D
+sideBarTextFg: #A5AB6D
+sideBarBadgeBgMuted: #A5AB6D
+wallpaper: t.me/bg/tI3XHR24TFMCAAAAT7lmkIFYT5M?mode=tiled // link to cloud wallpaper

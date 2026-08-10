@@ -1,0 +1,31 @@
+{
+  "mode": "dark",
+  "colors": {
+    "background": "rgb(20, 7, 7)",
+    "background-alternate": "rgb(28, 11, 11)",
+    "surface": "rgb(38, 17, 17)",
+    "surface-foreground": "rgb(244, 224, 224)",
+    "foreground": "rgb(244, 224, 224)",
+    "foreground-muted": "rgb(166, 132, 132)",
+    "primary": "rgb(198, 58, 58)",
+    "black": "rgb(0, 0, 0)",
+    "white": "rgb(255, 255, 255)",
+    "state-error": "rgb(255, 110, 110)",
+    "state-info": "rgb(122, 156, 214)",
+    "state-success": "rgb(112, 188, 128)",
+    "state-warning": "rgb(226, 166, 78)"
+  },
+  "app": {
+    "overlay-header": "linear-gradient(rgb(20 7 7 / 50%) 0%, rgb(20 7 7 / 85%))",
+    "overlay-subheader": "linear-gradient(rgb(20 7 7 / 0%) 0%, rgb(20 7 7 / 75%))",
+    "scrollbar-handle-background": "rgba(128, 36, 36, 55%)",
+    "scrollbar-handle-hover-background": "rgba(180, 52, 52, 75%)",
+    "scrollbar-handle-active-background": "rgba(207, 65, 65, 90%)",
+    "scrollbar-track-background": "rgba(38, 17, 17, 40%)"
+  },
+  "mantineOverride": {
+    "primaryShade": {
+      "dark": 5
+    }
+  }
+}
