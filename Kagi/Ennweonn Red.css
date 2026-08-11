@@ -1,0 +1,261 @@
+/* Kagi - Ennweonn Red */
+/* Based off Catppuccin Mocha theme: https://openkagi.com/themes/soft-catppuccin-mocha */
+
+/* === PALETTE === */
+
+:root {
+  --ctp-base: #200403;
+  --ctp-surface0: #ffb3b3;
+  --ctp-surface1: #5b2424;
+  --ctp-surface2: #8f3232;
+
+  --ctp-text: #f7ecec;
+  --ctp-mauve: #d9667e;
+  --ctp-lavender: #d8a39e;
+  --ctp-pink: #f5a3bf;
+  --ctp-green: #d98a6a;
+  --ctp-sapphire: #e89a6f;
+  --ctp-sky: #f3bd9b;
+  --ctp-rose: #f6c1b8;
+  --ctp-flamingo: #f29e94;
+  --ctp-peach: #ff9966;
+  --ctp-yellow: #f4c56b;
+  --ctp-teal: #e4937f;
+  --ctp-blue: #e88a8a;
+  --ctp-maroon: #e89090;
+}
+
+/* === BASE === */
+
+html,
+body {
+  background: var(--ctp-base) !important;
+  color: var(--ctp-text) !important;
+}
+
+/* === SEARCH BOX (top bar) === */
+
+/* Kagi paints the input fill from this native variable - override it */
+:root,
+.theme_moon_dark,
+.theme_moon_light {
+  --color-search-input: var(--ctp-surface1) !important;
+}
+
+.search-input-container {
+  background: var(--ctp-surface1) !important;
+}
+
+/* Inner field/wrapper has its own bg - make it transparent so red shows */
+.search-input-container > div,
+.search-input-container input,
+#searchBar,
+.search-input {
+  background: transparent !important;
+}
+
+.search-input-container input,
+#searchBar,
+.search-input {
+  color: var(--ctp-text) !important;
+  caret-color: var(--ctp-mauve);
+}
+
+/* Search / clear icons on the right */
+.search-form-icons,
+.search-form-icons a,
+.search-form-icons svg,
+.search-form-icons i {
+  color: var(--ctp-rose) !important;
+  fill: var(--ctp-rose) !important;
+}
+
+/* === AUTOCOMPLETE DROPDOWN === */
+
+.auto_suggestions,
+.auto_suggestions .auto_suggestions_in {
+  background: var(--ctp-surface1) !important;
+  color: var(--ctp-text) !important;
+}
+
+/* Suggestion rows (text) */
+.auto_suggestions a,
+.auto_suggestions li,
+.auto_suggestions .auto_object {
+  color: var(--ctp-text) !important;
+}
+
+/* Highlighted / hovered suggestion row */
+.auto_suggestions a:hover,
+.auto_suggestions li:hover,
+.auto_suggestions .auto_object:hover,
+.auto_suggestions .selected,
+.auto_suggestions a.selected,
+.auto_suggestions .auto_object.selected {
+  background: var(--ctp-surface2) !important;
+  color: var(--ctp-rose) !important;
+}
+
+/* Leading magnifier icons inside suggestions */
+.auto_suggestions svg,
+.auto_suggestions i {
+  color: var(--ctp-flamingo) !important;
+  fill: var(--ctp-flamingo) !important;
+}
+
+/* Dropdown footer / lens bar (Web / Programming / Small Web / ...) */
+.auto_suggestions_footer,
+._0_lenses {
+  background: var(--ctp-surface1) !important;
+}
+
+.auto_suggestions_footer a,
+._0_lenses a {
+  color: var(--ctp-lavender) !important;
+}
+
+.auto_suggestions_footer a:hover,
+._0_lenses a:hover {
+  color: var(--ctp-peach) !important;
+}
+
+.auto_suggestions_footer a.--active,
+.auto_suggestions_footer .--active,
+._0_lenses a.--active,
+._0_lenses .--active {
+  color: var(--ctp-mauve) !important;
+}
+
+/* Dropdown scrollbar (color only) */
+.auto_suggestions::-webkit-scrollbar-thumb {
+  background: var(--ctp-surface2) !important;
+}
+
+.auto_suggestions::-webkit-scrollbar-track {
+  background: var(--ctp-surface1) !important;
+}
+
+/* === RESULT TITLES === */
+
+.__sri-title a,
+.__sri_title_link {
+  color: var(--ctp-rose) !important;
+}
+
+.__sri_title_link:hover {
+  color: var(--ctp-flamingo) !important;
+}
+
+a:visited.__sri_title_link {
+  color: var(--ctp-mauve) !important;
+}
+
+/* === SUB-LINKS (sitelinks) === */
+
+.__srgi-title a {
+  color: var(--ctp-sapphire) !important;
+}
+
+.__srgi-title a:hover {
+  color: var(--ctp-sky) !important;
+}
+
+/* === RESULT DATE === */
+
+.__sri-time {
+  color: var(--ctp-lavender) !important;
+  background-color: var(--ctp-surface1);
+}
+
+/* === WIKIPEDIA WIDGET === */
+
+#wikipediaResults a:not(:visited) {
+  color: var(--ctp-flamingo) !important;
+}
+
+#wikipediaResults a:not(:visited):hover {
+  color: var(--ctp-rose) !important;
+}
+
+/* === QUICK ANSWER / ASSISTANT BOX === */
+
+.qa-container-box a:not(:visited),
+._0_quick_answer_box a:not(:visited) {
+  color: var(--ctp-flamingo) !important;
+}
+
+.qa-container-box a:not(:visited):hover,
+._0_quick_answer_box a:not(:visited):hover {
+  color: var(--ctp-rose) !important;
+}
+
+/* === NAV TABS (All / Images / Videos...) === */
+
+.nav_item._0_query_link_item:not(.--active):hover {
+  color: var(--ctp-peach) !important;
+}
+
+.nav_item._0_query_link_item.--active {
+  color: var(--ctp-mauve) !important;
+}
+
+/* === FILTER BAR (Region / Order By / Time / Options) === */
+
+.dd-toggle-label:hover,
+.dd-toggle-label:hover .textContent {
+  color: var(--ctp-yellow) !important;
+}
+
+.filter-item-inner > a:hover,
+#menu-advanced-search-toggle:hover {
+  color: var(--ctp-yellow) !important;
+}
+
+/* === WOLFRAM ALPHA === */
+
+._0_IA.instant-answer.wolfram-full-results,
+._0_IA.instant-answer.wolfram-full-results * {
+  color: var(--ctp-text) !important;
+}
+
+._0_IA.instant-answer.wolfram-full-results a:not(:visited) {
+  color: var(--ctp-peach) !important;
+}
+
+._0_IA.instant-answer.wolfram-full-results a:not(:visited):hover {
+  color: var(--ctp-yellow) !important;
+}
+
+/* === CALCULATOR === */
+
+._0_IA.instant-answer.inline-content.clearfix,
+._0_IA.instant-answer.inline-content.clearfix * {
+  color: var(--ctp-text) !important;
+}
+
+._0_IA.instant-answer.inline-content.clearfix a:not(:visited) {
+  color: var(--ctp-teal) !important;
+}
+
+._0_IA.instant-answer.inline-content.clearfix a:not(:visited):hover {
+  color: var(--ctp-sky) !important;
+}
+
+/* === CONVERSIONS === */
+
+#conversions,
+#conversions * {
+  color: var(--ctp-text) !important;
+}
+
+#conversions th {
+  color: var(--ctp-lavender) !important;
+}
+
+#conversions a:not(:visited) {
+  color: var(--ctp-blue) !important;
+}
+
+#conversions a:not(:visited):hover {
+  color: var(--ctp-lavender) !important;
+}
